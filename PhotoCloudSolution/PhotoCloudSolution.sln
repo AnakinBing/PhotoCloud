@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-ProvideExternally", "1-ProvideExternally", "{B3A07E5E-A3E2-4C83-88F2-F3CE8B64013B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-CoreBusiness", "2-CoreBusiness", "{16F75F65-A6A5-4E6E-91AB-89066B16E67C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-DataInteraction", "3-DataInteraction", "{B642A2A6-E8BF-4751-AD35-EFF718954172}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Entity", "4-Entity", "{20AD7DEA-90FE-48A4-989B-C1748F0D7930}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Common", "5-Common", "{9F8639FE-CDA2-46B4-8FB3-CCB37A4DEED8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6-Test", "6-Test", "{B9366509-A74A-4B5B-992B-7A825FA3D837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoCloud.WebAPI", "1-ProvideExternally\PhotoCloud.WebAPI\PhotoCloud.WebAPI.csproj", "{1796F735-3633-40AC-AC4D-935E43D35516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoCloud.Core", "2-CoreBusiness\PhotoCloud.Core\PhotoCloud.Core.csproj", "{F15803DC-8D5B-46D2-9539-C844F3DE3FE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoCloud.DataService", "3-DataInteraction\PhotoCloud.DataService\PhotoCloud.DataService.csproj", "{EC4CA071-D2B3-4790-85D9-F7B70E81BB2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoCloud.Model", "4-Entity\PhotoCloud.Model\PhotoCloud.Model.csproj", "{35458894-580C-438D-8B84-07FBAFB2E2D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoCloud.Utility", "5-Common\PhotoCloud.Utility\PhotoCloud.Utility.csproj", "{1C740F97-D992-4346-8D1F-028471AA964C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoCloud.DatabaseClient", "5-Common\PhotoCloud.DatabaseClient\PhotoCloud.DatabaseClient.csproj", "{1E92271F-0196-44AB-AA83-3D889AF6E974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoCloud.Test", "6-Test\PhotoCloud.Test\PhotoCloud.Test.csproj", "{A7097B2F-EC80-4198-9DF6-5508B8B9241E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1796F735-3633-40AC-AC4D-935E43D35516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1796F735-3633-40AC-AC4D-935E43D35516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1796F735-3633-40AC-AC4D-935E43D35516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1796F735-3633-40AC-AC4D-935E43D35516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15803DC-8D5B-46D2-9539-C844F3DE3FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15803DC-8D5B-46D2-9539-C844F3DE3FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15803DC-8D5B-46D2-9539-C844F3DE3FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15803DC-8D5B-46D2-9539-C844F3DE3FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4CA071-D2B3-4790-85D9-F7B70E81BB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4CA071-D2B3-4790-85D9-F7B70E81BB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4CA071-D2B3-4790-85D9-F7B70E81BB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4CA071-D2B3-4790-85D9-F7B70E81BB2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35458894-580C-438D-8B84-07FBAFB2E2D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35458894-580C-438D-8B84-07FBAFB2E2D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35458894-580C-438D-8B84-07FBAFB2E2D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35458894-580C-438D-8B84-07FBAFB2E2D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C740F97-D992-4346-8D1F-028471AA964C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C740F97-D992-4346-8D1F-028471AA964C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C740F97-D992-4346-8D1F-028471AA964C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C740F97-D992-4346-8D1F-028471AA964C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E92271F-0196-44AB-AA83-3D889AF6E974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E92271F-0196-44AB-AA83-3D889AF6E974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E92271F-0196-44AB-AA83-3D889AF6E974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E92271F-0196-44AB-AA83-3D889AF6E974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7097B2F-EC80-4198-9DF6-5508B8B9241E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7097B2F-EC80-4198-9DF6-5508B8B9241E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7097B2F-EC80-4198-9DF6-5508B8B9241E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7097B2F-EC80-4198-9DF6-5508B8B9241E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1796F735-3633-40AC-AC4D-935E43D35516} = {B3A07E5E-A3E2-4C83-88F2-F3CE8B64013B}
+		{F15803DC-8D5B-46D2-9539-C844F3DE3FE1} = {16F75F65-A6A5-4E6E-91AB-89066B16E67C}
+		{EC4CA071-D2B3-4790-85D9-F7B70E81BB2C} = {B642A2A6-E8BF-4751-AD35-EFF718954172}
+		{35458894-580C-438D-8B84-07FBAFB2E2D7} = {20AD7DEA-90FE-48A4-989B-C1748F0D7930}
+		{1C740F97-D992-4346-8D1F-028471AA964C} = {9F8639FE-CDA2-46B4-8FB3-CCB37A4DEED8}
+		{1E92271F-0196-44AB-AA83-3D889AF6E974} = {9F8639FE-CDA2-46B4-8FB3-CCB37A4DEED8}
+		{A7097B2F-EC80-4198-9DF6-5508B8B9241E} = {B9366509-A74A-4B5B-992B-7A825FA3D837}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CED160F-AAE3-486E-8F9B-212DF9AE2276}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\3-DataInteraction\PhotoCloud.DataService\PhotoCloud.DataService.csproj" />
+    <ProjectReference Include="..\..\4-Entity\PhotoCloud.Model\PhotoCloud.Model.csproj" />
+    <ProjectReference Include="..\..\5-Common\PhotoCloud.Utility\PhotoCloud.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

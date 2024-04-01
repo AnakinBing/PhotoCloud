@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2-CoreBusiness\PhotoCloud.Core\PhotoCloud.Core.csproj" />
+    <ProjectReference Include="..\..\3-DataInteraction\PhotoCloud.DataService\PhotoCloud.DataService.csproj" />
+    <ProjectReference Include="..\..\5-Common\PhotoCloud.DatabaseClient\PhotoCloud.DatabaseClient.csproj" />
+    <ProjectReference Include="..\..\5-Common\PhotoCloud.Utility\PhotoCloud.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="photo\bak.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
