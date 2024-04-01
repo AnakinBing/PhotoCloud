@@ -1,0 +1,21 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PhotoCloudSolution/.vs
+/PhotoCloudSolution/1-ProvideExternally/PhotoCloud.WebAPI/bin/Debug/net8.0
+/PhotoCloudSolution/1-ProvideExternally/PhotoCloud.WebAPI/obj
+/PhotoCloudSolution/1-ProvideExternally/PhotoCloud.WebAPI/Properties
+*.user
+/PhotoCloudSolution/2-CoreBusiness/PhotoCloud.Core/bin/Debug/net8.0
+/PhotoCloudSolution/2-CoreBusiness/PhotoCloud.Core/obj
+/PhotoCloudSolution/3-DataInteraction/PhotoCloud.DataService/bin/Debug/net8.0
+/PhotoCloudSolution/3-DataInteraction/PhotoCloud.DataService/obj
+/PhotoCloudSolution/4-Entity/PhotoCloud.Model/bin/Debug/net8.0
+/PhotoCloudSolution/4-Entity/PhotoCloud.Model/obj
+/PhotoCloudSolution/5-Common/PhotoCloud.DatabaseClient/bin/Debug/net8.0
+/PhotoCloudSolution/5-Common/PhotoCloud.DatabaseClient/obj
+/PhotoCloudSolution/5-Common/PhotoCloud.Utility/bin/Debug/net8.0
+/PhotoCloudSolution/5-Common/PhotoCloud.Utility/obj
+/PhotoCloudSolution/6-Test/PhotoCloud.Test/bin/Debug/net8.0
+/PhotoCloudSolution/6-Test/PhotoCloud.Test/obj
